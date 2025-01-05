@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('/Scrim-s04k019/CursedTimerUlil-Aznm.ttf');
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    height: 385px;
+    width: 575px;
+    background-color: #1B244A;
+    margin: 0 auto;
+    color: #fff;
+
+    position:relative;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.black-box {
+    height: 120;
+    width: 117;
+    background-color: #000;
+    color: #F94F6D;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'MyWebFont';
+    line-height: 126.7;
+
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 3px;
+}
+
+.buttons button {
+    width: 30px;
+    height: 25.77px;
+
+    border: 1px solid #9AABD8;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+
+.new-game {
+    position: absolute;
+    bottom: 10;
+
+    color: white;
+    padding: 16px 32px;
+    background-color: green;
+}
