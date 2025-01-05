@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: 'MyWebFont';
-    src: url('/Scrim-s04k019/CursedTimerUlil-Aznm.ttf');
+    src: url('CursedTimerUlil-Aznm.ttf');
   }
   
 
@@ -51,6 +51,7 @@ body {
     line-height: 126.7;
 
     margin-bottom: 1rem;
+    font-size: 100px;
 }
 
 .buttons {
